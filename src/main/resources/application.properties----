@@ -1,0 +1,32 @@
+app.jwt.secret=abcdefghijklmnOPQRSTUVWXYZ
+
+spring.main.banner-mode=off
+logging.level.org.springframework=ERROR
+
+spring.jpa.hibernate.ddl-auto=update
+
+spring.data.rest.base-path=/api
+spring.data.rest.enable-enum-translation=true
+
+server.error.whitelabel.enabled=false
+
+spring.sql.init.mode=always
+spring.sql.init.platform=postgres
+spring.datasource.url=jdbc:postgresql://localhost:5432/catalogue_java
+spring.datasource.username=kivicms
+spring.datasource.password=Zc4e72xs
+
+spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
+security.basic.enabled=false
+
+springdoc.version=@springdoc.version@
+springdoc.swagger-ui.use-root-path=true
+
+spring.hateoas.use-hal-as-default-json-media-type=false
+
+#Auth for synchronize information
+settings.username=
+settings.password=
+
+# swagger-ui custom path
+# springdoc.swagger-ui.path=/swagger-ui.html
